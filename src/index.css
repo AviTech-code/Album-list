@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  height: 10vh;
+  width: 100%;
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.albumHeading {
+  margin: 2%;
+}
+
+.albumHeading h1:hover {
+  color: rebeccapurple;
+}
+
+.addAlbum {
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 10%;
+  position: relative;
+
+}
+
+.addAlbum :hover {
+  box-shadow: inset 6px 6px rgba(255, 2 ff,
+      0, .5);
+  cursor: pointer;
+  transform: scale(.9);
+  transition: .5s ease all;
+  background-color: #fff024;
+}
+
+.addAlbum button {
+  width: 100%;
+  height: 100%;
+  border-radius: 6%;
+  font-size: 100%;
+  font-weight: bold;
+  background: transparent;
+
+}
+
+.albumList {
+  margin-top: 3%;
+  position: relative;
+  top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 34%;
+  max-height: calc(98% + 1%) !important;
+}
+
+.albumCard {
+  width: 28%;
+  height: 78%;
+  border: 2px solid #fff024;
+  margin: 5px;
+  background-color: blanchedalmond;
+
+}
+
+.albumCard :hover {
+  box-shadow: inset 6px 6px rgba(255, 2 ff,
+      0, .5);
+  cursor: pointer;
+  transform: scale(.9);
+  transition: .5s ease all
+}
+
+.albumNumber {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 20%;
+  width: 100%;
+}
+
+
+.albumNumber p {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.albumTitle {
+
+  font-size: 120%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 1rem;
+}
+
+.btnSection {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: -20px;
+  height: 20%;
+  width: 100%;
+}
+
+.modifyBtn {
+  width: 33%;
+  height: 80%;
+  font-size: 110%;
+  /* border: none; */
+  background: transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1px;
+}
+
+.modifyBtn :hover {
+  background: #000;
+  color: blanchedalmond;
+}
+
+.deleteBtn {
+  background: transparent;
+  height: 80%;
+  /* border: none; */
+  font-size: 110%;
+}
+
+
+
+.updateValue {
+  width: 400px;
+  height: 400px;
+  border: 2px solid grey;
+  border-radius: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px auto;
+  background-color: #fff024;
+}
+
+.updateValue input {
+  width: 95%;
+  height: 100px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
+
+.addAlbumForm {
+  position: relative;
+  height: 30%;
+  top: 10%;
+  margin: 3% auto;
+  width: 40%;
+  border: 1px solid black;
+  background: burlywood;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
